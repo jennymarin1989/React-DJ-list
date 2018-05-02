@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import App from '../../components/App.js'
 
 
@@ -25,10 +25,12 @@ describe('App', () =>{
   })
 
   describe('year input', () => {
-    let app = shallow(<App />)
     it('should responde to change event and change the state of the input', () => {
-      app.find('#year-input').simulate('change', {target: { name:"input", value:"2007"}})
-      expect(app.state('input')).toEqual("2007")
+      let handleInputSpy = sinon.spy(App.prototype, "handleInputChange");
+      let event = {target: { name:"input", value:"2007"}}
+      let app = mount(<App />);
+      app.find('#year-input').simulate('change', event )
+      expect(handleInputSpy.calledOnce).toEqual(true);
     });
   })
 

@@ -14,4 +14,11 @@ describe ("SubmitButton", () => {
       expect(button.getElement('button')).toBeDefined();
     })
 
+    it("handles clicks", () =>{
+      let OnClickSpy = jest.fn();
+      let listByYear = shallow(<SubmitButton  onClick={OnClickSpy}/>);
+      listByYear.find('button').simulate('click');
+      expect(OnClickSpy).toHaveBeenCalled();
+    })
+
   })

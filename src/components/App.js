@@ -14,6 +14,9 @@ class App extends Component {
     return (
       <div>
         <h1>REACT DJ</h1>
+        <div className="input-group">
+        <input type="text" id="year-input" className="form-control" placeholder="Enter a year" value={this.state.message}/>
+        </div>
       </div> 
 
     )

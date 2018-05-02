@@ -20,7 +20,7 @@ describe('App', () =>{
   describe('renders input correctly', () => {
     let app = shallow(<App />)
     it('renders year input correctly', () => {
-      expect(app.find('.form-control').length).toEqual(1);
+      expect(app.find('#year-input').length).toEqual(1);
     })
   })
 

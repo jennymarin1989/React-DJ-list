@@ -28,7 +28,7 @@ ShallowWrapper {
                     className="form-control"
                     id="year-input"
                     name="input"
-                    onChange={undefined}
+                    onChange={[Function]}
                     placeholder="Enter a year"
                     type="text"
                     value={undefined}
@@ -58,7 +58,7 @@ ShallowWrapper {
             className="form-control"
             id="year-input"
             name="input"
-            onChange={undefined}
+            onChange={[Function]}
             placeholder="Enter a year"
             type="text"
             value={undefined}
@@ -74,7 +74,7 @@ ShallowWrapper {
             "className": "form-control",
             "id": "year-input",
             "name": "input",
-            "onChange": undefined,
+            "onChange": [Function],
             "placeholder": "Enter a year",
             "type": "text",
             "value": undefined,
@@ -105,7 +105,7 @@ ShallowWrapper {
                         className="form-control"
                         id="year-input"
                         name="input"
-                        onChange={undefined}
+                        onChange={[Function]}
                         placeholder="Enter a year"
                         type="text"
                         value={undefined}
@@ -135,7 +135,7 @@ ShallowWrapper {
               className="form-control"
               id="year-input"
               name="input"
-              onChange={undefined}
+              onChange={[Function]}
               placeholder="Enter a year"
               type="text"
               value={undefined}
@@ -151,7 +151,7 @@ ShallowWrapper {
               "className": "form-control",
               "id": "year-input",
               "name": "input",
-              "onChange": undefined,
+              "onChange": [Function],
               "placeholder": "Enter a year",
               "type": "text",
               "value": undefined,

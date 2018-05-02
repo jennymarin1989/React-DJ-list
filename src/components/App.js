@@ -8,6 +8,11 @@ class App extends Component {
       input: ""
     }
   }
+  handleInputChange = (event) => {
+    this.setState({
+      [event.target.name]: event.target.value
+    })
+  }
 
 
   render(){  

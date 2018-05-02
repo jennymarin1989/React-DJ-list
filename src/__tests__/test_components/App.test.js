@@ -26,11 +26,8 @@ describe('App', () =>{
 
   describe('year input', () => {
     it('should responde to change event and change the state of the input', () => {
-      let handleInputSpy = sinon.spy(App.prototype, "handleInputChange");
-      let event = {target: { name:"input", value:"2007"}}
-      let app = mount(<App />);
-      app.find('#year-input').simulate('change', event )
-      expect(handleInputSpy.calledOnce).toEqual(true);
+      app.find('#year-input').simulate('change', {target: { name:"input", value:"2007"}})
+      expect(app.state('input')).toEqual("2007")
     });
   })
 

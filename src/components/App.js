@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 
+
 class App extends Component {
     
   constructor(){
@@ -8,12 +9,13 @@ class App extends Component {
       input: ""
     }
   }
+  
   handleInputChange = (event) => {
     this.setState({
       [event.target.name]: event.target.value
     })
   }
-  
+
 
 
   render(){  

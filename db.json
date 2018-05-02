@@ -1,57 +1,19 @@
-[
+{
+  "posts": [
     {
-        "title":"One more time",
-        "Artist": "Alison Moyet",
-        "Album":"The turn", 
-        "Year":2007
-    },
-
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
     {
-        "title":"Taurus II",
-        "Artist": "Mike Oldfield",
-        "Album":"5 Miles Out", 
-        "Year":2013
-    },
-
-    {
-        "title":"F4",
-        "Artist": "Spooky Tooth",
-        "Album":"The Island Years", 
-        "Year":2015
-    },
-
-    {
-        "title":"Love Dance",
-        "Artist": "Te Cure",
-        "Album":"Disintegration", 
-        "Year":2010
-    },
-
-    {
-        "title":"The Children of Ran",
-        "Artist": "T-Rex",
-        "Album":"T-Rex", 
-        "Year":2014
-    },
-
-    {
-        "title":"Another Day",
-        "Artist": "Alyson Moyet",
-        "Album":"The turn", 
-        "Year":2007
-    },
-
-    {
-        "title":"Face Off",
-        "Artist": "Spooky Tooth",
-        "Album":"The Island Years", 
-        "Year":2015
-    },
-
-
-]
-
-
-
-
-
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

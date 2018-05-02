@@ -25,7 +25,6 @@ describe('App', () =>{
     })
   })
   
-
   describe('initializes state successfully', ()=> {
     it("initializes state as an empty string", () => {
       expect(app.state('input')).toEqual("");

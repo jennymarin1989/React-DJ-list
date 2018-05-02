@@ -17,14 +17,12 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "REACT DJ",
+      "children": <h1>
+        REACT DJ
+</h1>,
     },
     "ref": null,
-    "rendered": "REACT DJ",
-    "type": "h1",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
@@ -34,6 +32,32 @@ ShallowWrapper {
       "ref": null,
       "rendered": "REACT DJ",
       "type": "h1",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <h1>
+          REACT DJ
+</h1>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "REACT DJ",
+        },
+        "ref": null,
+        "rendered": "REACT DJ",
+        "type": "h1",
+      },
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {

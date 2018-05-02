@@ -7,14 +7,15 @@ class App extends Component {
     this.state = {
       input: ""
     }
-
   }
-
 
 
   render(){  
     return (
-      <h1>REACT DJ</h1>
+      <div>
+        <h1>REACT DJ</h1>
+      </div> 
+
     )
   }
     

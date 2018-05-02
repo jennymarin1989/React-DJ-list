@@ -1,4 +1,5 @@
 import React, { Component} from 'react';
+import ListOfSongs from './ListOfSongs';
 
 
 class App extends Component {
@@ -23,8 +24,11 @@ class App extends Component {
       <div>
         <h1>REACT DJ</h1>
         <div className="input-group">
-        <input type="text" id="year-input" className="form-control" name="input" placeholder="Enter a year" value={this.state.message} onChange={this.handleInputChange}/>
+          <input type="text" id="year-input" className="form-control" name="input" placeholder="Enter a year" value={this.state.message} onChange={this.handleInputChange}/>
         </div>
+        <div>
+          <ListOfSongs />
+        </div>  
       </div> 
 
     )

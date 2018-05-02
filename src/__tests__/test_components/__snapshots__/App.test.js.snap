@@ -33,7 +33,9 @@ ShallowWrapper {
                     type="text"
                     value={undefined}
           />
-          <SubmitButton />
+          <SubmitButton
+                    name="Search"
+          />
 </div>,
         <div>
           <ListOfSongs />
@@ -68,7 +70,9 @@ ShallowWrapper {
               type="text"
               value={undefined}
 />,
-            <SubmitButton />,
+            <SubmitButton
+              name="Search"
+/>,
           ],
           "className": "input-group",
         },
@@ -95,7 +99,9 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
-            "props": Object {},
+            "props": Object {
+              "name": "Search",
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -147,7 +153,9 @@ ShallowWrapper {
                         type="text"
                         value={undefined}
             />
-            <SubmitButton />
+            <SubmitButton
+                        name="Search"
+            />
 </div>,
           <div>
             <ListOfSongs />
@@ -182,7 +190,9 @@ ShallowWrapper {
                 type="text"
                 value={undefined}
 />,
-              <SubmitButton />,
+              <SubmitButton
+                name="Search"
+/>,
             ],
             "className": "input-group",
           },
@@ -209,7 +219,9 @@ ShallowWrapper {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
-              "props": Object {},
+              "props": Object {
+                "name": "Search",
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],

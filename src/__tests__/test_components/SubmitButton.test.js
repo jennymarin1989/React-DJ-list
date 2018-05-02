@@ -11,7 +11,7 @@ describe ("SubmitButton", () =>{
     }),
 
     it("renders button correctly", ()=>{
-      expect(button.find('.btn btn-success').exists()).toBe(true);
+      expect(button.find('.btn btn-success').exists()).toEqual('Search');
     })
 
 })

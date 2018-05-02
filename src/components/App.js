@@ -23,8 +23,8 @@ class App extends Component {
   }
 
  getListOfSongs = (data, event) =>{
-    let list = data.filter(function(item){
-      return item.year === "2008";
+    let list = data.filter(function(song){
+      return song.year === event;
     })
     console.log(list)
    

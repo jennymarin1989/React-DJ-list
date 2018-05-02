@@ -3,6 +3,7 @@ import ListOfSongs from './ListOfSongs';
 import data from '../db.json'
 import SubmitButton from './SubmitButton';
 
+console.log(data)
 
 class App extends Component {
     
@@ -15,11 +16,24 @@ class App extends Component {
   
   handleInputChange = (event) => {
     this.setState({
-      [event.target.name]: event.target.value
+      input: event.target.value
     });
+    console.log(event)
+    
   }
 
+ getListOfSongs = (data, event) =>{
+    let list = data.filter(function(item){
+      return item.year === "2008";
+    })
+    console.log(list)
+   
+ } 
  
+
+ 
+
+
   render(){  
     return (
       <div>

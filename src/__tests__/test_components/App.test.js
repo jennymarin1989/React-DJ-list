@@ -50,7 +50,8 @@ describe('App', () =>{
         {"title":"Sunday bloody Sunday", "Artist": "u2", "Album": "The Joshua Tree", "year": 2000 },
         {"title":"When you were young", "Artist": "THe killers", "Album": "Human", "year": 2008 }
       ]
-     expect(app.getListOfSongs(songs, 2000)).toEqual({"title":"Sunday bloody Sunday", "Artist": "u2", "Album": "The Joshua Tree", "year": 2000 });
+     expect(app.instance().getListOfSongs(songs)).toEqual([{"title":"Sunday bloody Sunday", "Artist": "u2", "Album": "The Joshua Tree", "year": 2000 }]);
+    console.log(songs)
     })
   })
 

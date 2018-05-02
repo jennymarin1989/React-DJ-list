@@ -8,6 +8,10 @@ describe ("SubmitButton", () =>{
   
     it("renders correctly", () => {
        expect(button).toMatchSnapshot(); 
+    }),
+
+    it("renders button correctly", ()=>{
+      expect(button.find('.btn btn-success').exists()).toBe(true);
     })
 
 })

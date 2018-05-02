@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Component} from 'react';
 
-const App = () => {
+class App extends Component {
     
+  render(){  
     return (
-        <h1>REACT DJ</h1>
+      <h1>REACT DJ</h1>
     )
+  }
+    
 };
 
 

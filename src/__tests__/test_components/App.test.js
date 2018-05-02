@@ -39,6 +39,10 @@ describe('App', () =>{
       app.find('#year-input').simulate('change', {target: { name:"input", value:"2007"}})
       expect(app.state('input')).toEqual("2007")
     });
-  })
+  });
+
+  // describe('returns an array of objects from data.json', () => {
+ 
+  // })
 
 })

@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import ListOfSongs from './ListOfSongs';
+import data from '../db.json'
 
 
 class App extends Component {
@@ -14,9 +15,10 @@ class App extends Component {
   handleInputChange = (event) => {
     this.setState({
       [event.target.name]: event.target.value
-    })
+    });
   }
 
+ 
 
 
   render(){  

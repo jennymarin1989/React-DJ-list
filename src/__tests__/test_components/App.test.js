@@ -11,10 +11,16 @@ describe('App', () =>{
     app = shallow(<App />)
   });
 
+  describe('renders components correctly',() => {
+    it("renders correctly", () =>{
+      expect(app).toMatchSnapshot();
+    });
 
-  it("initializes correctly", () =>{
-    expect(app).toMatchSnapshot();
-  });
+    it('renders list of songs component correctly', () =>{
+      expect(app.find('ListOfSongs').exists()).toBe(true);
+    })
+  })
+  
 
   describe('initializes state successfully', ()=> {
     it("initializes state as an empty string", () => {

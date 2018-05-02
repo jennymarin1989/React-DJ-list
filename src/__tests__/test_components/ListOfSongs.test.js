@@ -1,12 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import ListOfSongs from '../../components/ListOfSongs'
 
 
 describe("listOfSongs", () => {
 
-    let list = shallow(<ListofSongs />)
+    let list = shallow(<ListOfSongs />)
   
   it('renders correctly', ()=>{
-    expect(list).toMatchSnaptshot();
+    expect(list).toMatchSnapshot();
   })
 })

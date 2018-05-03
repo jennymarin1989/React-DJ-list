@@ -33,16 +33,19 @@ To have an idea about the structure of the application, I drew a diagram and an 
 
 Diagram:
 
-
-
-
-
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/39562894-e593ba52-4ea5-11e8-8b28-98c47b652c49.png" width="600px" text-align:"center" />
+</p>
 
 
 MVP:
 
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/39563098-b85cc05a-4ea6-11e8-80af-dfad10a1888e.png" width="600px" text-align:"center" />
+</p>
 
-To complete this technical test I was free to choose the technologies. Initially my idea was to build a full stack app using the MERN(Mongo, Express, React and Node)stack applying TDD principles but it would take more than one day to finish it, therefore, I made the decision to use React and axios but unfortunately I had some issues with the installation of the axios npm package and I couldn't use it correctly, so I ended up using purely React and CC to achieve the requirements of the MVP. I given more time, I would spend more time researching about axios and practising REST Api calls to access local Json data.
+
+To complete this technical test I was free to choose the technologies. Initially my idea was to build a full stack app using the MERN(Mongo, Express, React and Node)stack applying TDD principles but it would take more than one day to finish it, therefore, I made the decision to use React and axios but unfortunately I had some issues with the installation of the axios npm package and I couldn't use it correctly, so I ended up using purely React and CSS to achieve the requirements of the MVP. I given more time, I would spend more time researching about axios and practising REST Api calls to access local Json data.
 
 Althought the app is very basic I followed TDD principles using the Jest testing frmaework, starting with basic tests to render a simple component and testing more complicated units of code later on.
 
@@ -87,6 +90,7 @@ This project was developed in less than one day, If given more time I would impr
 - Using MERN stack or Axios, to practise API calls and DB connection
 - Creating more reusable components in React to keep the code DRY
 - Improving app styling.
+- Creating an alert if user enters an string or invalid character in searching box
 
 # Technologies
 

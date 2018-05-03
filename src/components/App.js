@@ -3,38 +3,26 @@ import ListOfSongs from './ListOfSongs';
 import data from '../db.json'
 import SubmitButton from './SubmitButton';
 
-console.log(data)
 
 class App extends Component {
     
   constructor(){
     super();
     this.state = {
-      input: ""
+      input: ''
     }
+    this.handleInputChange = this.handleInputChange.bind(this)
   }
   
   handleInputChange = (event) => {
     this.setState({
       input: event.target.value
     });
-    console.log(event)
-    
+  
   }
-
- getListOfSongs = (data, event) =>{
-    let list = data.filter(function(song){
-      return song.year === event;
-    })
-    console.log(list)
-   
- } 
- 
-
- 
-
-
+  
   render(){  
+  
     return (
       <div>
         <h1>REACT DJ</h1>
@@ -45,7 +33,9 @@ class App extends Component {
              />
         </div>
         <div>
-          <ListOfSongs />
+          <ListOfSongs 
+          />
+          
         </div>  
       </div> 
 

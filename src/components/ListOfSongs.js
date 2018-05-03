@@ -6,7 +6,7 @@ const ListOfSongs = (props) => {
 
         <div>
            <h1>List of songs</h1>
-           <h2>{props.data}</h2>
+          }
         </div>    
     )
 

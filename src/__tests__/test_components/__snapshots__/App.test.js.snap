@@ -18,9 +18,10 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-          REACT DJ
-</h1>,
+        <Header
+          class="title"
+          name="DJ REACT!!"
+/>,
         <div
           className="input-group"
 >
@@ -29,31 +30,38 @@ ShallowWrapper {
                     id="year-input"
                     name="input"
                     onChange={[Function]}
-                    placeholder="Enter a year"
+                    placeholder="Enter a year and I give you a song..."
                     type="text"
                     value={undefined}
           />
 </div>,
         <div>
-          <Header />
+          <Header
+                    class="list"
+                    name="Song List:"
+          />
 </div>,
-        <div>
+        <div
+          className="song-list"
+>
           
 </div>,
       ],
+      "className": "homepage",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
-          "children": "REACT DJ",
+          "class": "title",
+          "name": "DJ REACT!!",
         },
         "ref": null,
-        "rendered": "REACT DJ",
-        "type": "h1",
+        "rendered": null,
+        "type": [Function],
       },
       Object {
         "instance": null,
@@ -65,7 +73,7 @@ ShallowWrapper {
             id="year-input"
             name="input"
             onChange={[Function]}
-            placeholder="Enter a year"
+            placeholder="Enter a year and I give you a song..."
             type="text"
             value={undefined}
 />,
@@ -81,7 +89,7 @@ ShallowWrapper {
             "id": "year-input",
             "name": "input",
             "onChange": [Function],
-            "placeholder": "Enter a year",
+            "placeholder": "Enter a year and I give you a song...",
             "type": "text",
             "value": undefined,
           },
@@ -96,14 +104,20 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Header />,
+          "children": <Header
+            class="list"
+            name="Song List:"
+/>,
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "class": "list",
+            "name": "Song List:",
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -116,6 +130,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [],
+          "className": "song-list",
         },
         "ref": null,
         "rendered": Array [],
@@ -131,9 +146,10 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-            REACT DJ
-</h1>,
+          <Header
+            class="title"
+            name="DJ REACT!!"
+/>,
           <div
             className="input-group"
 >
@@ -142,31 +158,38 @@ ShallowWrapper {
                         id="year-input"
                         name="input"
                         onChange={[Function]}
-                        placeholder="Enter a year"
+                        placeholder="Enter a year and I give you a song..."
                         type="text"
                         value={undefined}
             />
 </div>,
           <div>
-            <Header />
+            <Header
+                        class="list"
+                        name="Song List:"
+            />
 </div>,
-          <div>
+          <div
+            className="song-list"
+>
             
 </div>,
         ],
+        "className": "homepage",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
-            "children": "REACT DJ",
+            "class": "title",
+            "name": "DJ REACT!!",
           },
           "ref": null,
-          "rendered": "REACT DJ",
-          "type": "h1",
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -178,7 +201,7 @@ ShallowWrapper {
               id="year-input"
               name="input"
               onChange={[Function]}
-              placeholder="Enter a year"
+              placeholder="Enter a year and I give you a song..."
               type="text"
               value={undefined}
 />,
@@ -194,7 +217,7 @@ ShallowWrapper {
               "id": "year-input",
               "name": "input",
               "onChange": [Function],
-              "placeholder": "Enter a year",
+              "placeholder": "Enter a year and I give you a song...",
               "type": "text",
               "value": undefined,
             },
@@ -209,14 +232,20 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Header />,
+            "children": <Header
+              class="list"
+              name="Song List:"
+/>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
-            "props": Object {},
+            "props": Object {
+              "class": "list",
+              "name": "Song List:",
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -229,6 +258,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [],
+            "className": "song-list",
           },
           "ref": null,
           "rendered": Array [],

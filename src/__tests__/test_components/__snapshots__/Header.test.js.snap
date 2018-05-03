@@ -17,9 +17,8 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        List of songs
-</h1>,
+      "children": <h1 />,
+      "className": undefined,
     },
     "ref": null,
     "rendered": Object {
@@ -27,10 +26,10 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "List of songs",
+        "children": undefined,
       },
       "ref": null,
-      "rendered": "List of songs",
+      "rendered": null,
       "type": "h1",
     },
     "type": "div",
@@ -41,9 +40,8 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          List of songs
-</h1>,
+        "children": <h1 />,
+        "className": undefined,
       },
       "ref": null,
       "rendered": Object {
@@ -51,10 +49,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "List of songs",
+          "children": undefined,
         },
         "ref": null,
-        "rendered": "List of songs",
+        "rendered": null,
         "type": "h1",
       },
       "type": "div",

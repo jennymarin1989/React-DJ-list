@@ -1,0 +1,18 @@
+.homepage {
+
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    padding-top: 8em;
+    font-size: 19px;
+    background-image: url('./music.png');
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 90%;
+
+}
+
+.songs {
+    
+    font-weight: bold;
+    font-size: 20px;
+}

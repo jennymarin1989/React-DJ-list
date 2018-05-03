@@ -5,7 +5,7 @@ const Header = (props) => {
     return(
 
         <div>
-           <h1>List of songs</h1>
+           <h1>{props.name}</h1>
         </div>    
     )
 

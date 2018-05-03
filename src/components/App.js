@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import Header from './Header';
-import data from '../db.json'
+import data from '../db.json';
+import '../App.css'
 
 
 
@@ -25,20 +26,22 @@ class App extends Component {
       return song.Year === parseInt(this.state.input)
     })
     return (
-      <div>
-        <h1>REACT DJ</h1>
+      <div className="homepage">
+        <Header 
+        name = {"DJ REACT"}/>
         <div className="input-group">
           <input type="text" id="year-input" className="form-control" name="input" placeholder="Enter a year" value={this.state.message} onChange={this.handleInputChange}/>
         </div>
         <div>
           <Header 
+          name = {"Song List:"}
           />
          </div>
          <div> 
           {
             filterSongs.map(function(song, i){
               return (
-                <ul key={i}>{song.Year}, {song.Artist}, {song.Album}</ul>
+                <ul className="songs" key={i}>Year:{song.Year}, Title:{song.title}, Artist:{song.Artist}, Album:{song.Album}</ul>
               )
             })
           }

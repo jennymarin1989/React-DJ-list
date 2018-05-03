@@ -21,16 +21,22 @@ So I can succesfully run my session
 I want to be able to **use** the React-DJ-List app
 
 As a DJ
-So I can **view** a specific list of songs
-I want to be able to display a list of songs of a given year
+So I can view a specific list of songs
+I want to be able to **display** a list of songs of a given year
 
 As a DJ
 So I can have more information about the list I'm playing
-I want to be able to get the Title, Artist, Album and Year
+I want to be able to **get** the Title, Artist, Album and Year
 
 As a new User
 So I can make an effective use of the app
 I wan to be able to have all the instructions about the use of the app
+
+to be completed:
+
+As a use
+So I can display a Song List of a given year in the browser
+I want to be able to get this information by pressing a search button
 
 ```
 
@@ -86,10 +92,19 @@ Run test:
 
 This project was developed in less than one day, If given more time I would improve the app by:
 
-- Using MERN stack or Axios, to practise API calls and DB connection
-- Creating more reusable components in React to keep the code DRY
-- Improving app styling.
-- Creating an alert if user enters an string or invalid character in searching box
+- Using MERN stack, Setting up a CRUD (Create, Read, Update and Delete) API via express, using this API to create a connection with MongoDB and manipulate the data and connecting back end with front end using React JS.
+
+- Adding a button to the search box, so the user can view the song list only when she clicks the button.
+
+- Creating more reusable components in React to keep the code DRY, extracting some data to child components which can be reusable.
+
+- Improving app styling using react boostrap or styled components.
+
+- Applying User Interface Testing using Cypress.
+
+- Creating a window alert or throwing an error if user enters an string or invalid character in searching box.
+
+I wanted to get more preactice with REST Api's but It wasn't possible due to the challenges I had to face with the  node package installation and the deadline of the project, but I will keep working on it to improve the code and the styling of the app..
 
 # Technologies
 

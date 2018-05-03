@@ -19,12 +19,25 @@
 }
 
 .form-control[type=text] {
-        width: 30%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 2px solid rgb(14, 12, 12);
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-size: 15px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.title {
+
+    color: black;
+    font-size: 22px;
+
+}
+
+.song-list {
+
+  background-color: lightgray;
+
 }

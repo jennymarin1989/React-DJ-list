@@ -4,7 +4,7 @@ const Header = (props) => {
 
     return(
 
-        <div>
+        <div className={props.class}>
            <h1>{props.name}</h1>
         </div>    
     )

@@ -1,7 +1,7 @@
 .homepage {
 
     text-align: center;
-    font-family: 'Trebuchet MS';
+    font-family: monospace;
     padding-top: 8em;
     font-size: 19px;
     background-image: url('./music.png');
@@ -14,5 +14,17 @@
 .songs {
     
     font-weight: bold;
-    font-size: 20px;
+    font-size: 21px;
+    border: darkgray;
+}
+
+.form-control[type=text] {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid rgb(14, 12, 12);
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 15px;
 }

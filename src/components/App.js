@@ -35,6 +35,7 @@ class App extends Component {
         <div>
           <Header 
           name = {"Song List:"}
+          class = {"title"}
           />
          </div>
          <div> 

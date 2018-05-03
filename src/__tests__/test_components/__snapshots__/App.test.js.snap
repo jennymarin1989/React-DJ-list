@@ -33,12 +33,12 @@ ShallowWrapper {
                     type="text"
                     value={undefined}
           />
-          <SubmitButton
-                    name="Search"
-          />
 </div>,
         <div>
           <ListOfSongs />
+</div>,
+        <div>
+          
 </div>,
       ],
     },
@@ -60,53 +60,35 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <input
-              className="form-control"
-              id="year-input"
-              name="input"
-              onChange={[Function]}
-              placeholder="Enter a year"
-              type="text"
-              value={undefined}
+          "children": <input
+            className="form-control"
+            id="year-input"
+            name="input"
+            onChange={[Function]}
+            placeholder="Enter a year"
+            type="text"
+            value={undefined}
 />,
-            <SubmitButton
-              name="Search"
-/>,
-          ],
           "className": "input-group",
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "className": "form-control",
-              "id": "year-input",
-              "name": "input",
-              "onChange": [Function],
-              "placeholder": "Enter a year",
-              "type": "text",
-              "value": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "form-control",
+            "id": "year-input",
+            "name": "input",
+            "onChange": [Function],
+            "placeholder": "Enter a year",
+            "type": "text",
+            "value": undefined,
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "name": "Search",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
         "type": "div",
       },
       Object {
@@ -126,6 +108,17 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+        },
+        "ref": null,
+        "rendered": Array [],
         "type": "div",
       },
     ],
@@ -153,12 +146,12 @@ ShallowWrapper {
                         type="text"
                         value={undefined}
             />
-            <SubmitButton
-                        name="Search"
-            />
 </div>,
           <div>
             <ListOfSongs />
+</div>,
+          <div>
+            
 </div>,
         ],
       },
@@ -180,53 +173,35 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <input
-                className="form-control"
-                id="year-input"
-                name="input"
-                onChange={[Function]}
-                placeholder="Enter a year"
-                type="text"
-                value={undefined}
+            "children": <input
+              className="form-control"
+              id="year-input"
+              name="input"
+              onChange={[Function]}
+              placeholder="Enter a year"
+              type="text"
+              value={undefined}
 />,
-              <SubmitButton
-                name="Search"
-/>,
-            ],
             "className": "input-group",
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "className": "form-control",
-                "id": "year-input",
-                "name": "input",
-                "onChange": [Function],
-                "placeholder": "Enter a year",
-                "type": "text",
-                "value": undefined,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "year-input",
+              "name": "input",
+              "onChange": [Function],
+              "placeholder": "Enter a year",
+              "type": "text",
+              "value": undefined,
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "name": "Search",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
           "type": "div",
         },
         Object {
@@ -246,6 +221,17 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+          },
+          "ref": null,
+          "rendered": Array [],
           "type": "div",
         },
       ],

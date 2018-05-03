@@ -19,11 +19,7 @@ describe('App', () =>{
     it('renders list of songs component correctly', () =>{
       expect(app.find('ListOfSongs').exists()).toBe(true);
     });
-
-    it('renders SubmitButton component correctly', () =>{
-      expect(app.find('SubmitButton').exists()).toBe(true);
-    })
-  })
+  });
   
   describe('initializes state successfully', ()=> {
     it("initializes state as an empty string", () => {

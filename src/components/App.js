@@ -22,10 +22,8 @@ class App extends Component {
   
   render(){  
     let filterSongs = data.filter((song) => {
-      return song.Year === parseInt(this.state.event)
-    }
-  )
-
+      return song.Year === parseInt(this.state.input)
+    })
     return (
       <div>
         <h1>REACT DJ</h1>
@@ -35,13 +33,19 @@ class App extends Component {
         <div>
           <ListOfSongs 
           />
-          
+         </div>
+         <div> 
+          {
+            filterSongs.map(function(song, i){
+              return (
+                <ul key={i}>{song.Year}, {song.Artist}, {song.Album}</ul>
+              )
+            })
+          }
         </div>  
       </div> 
-
     )
   }
-    
 };
 
 

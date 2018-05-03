@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ListOfSongs from '../../components/ListOfSongs'
+import Header from '../../components/Header'
 
 
 describe("listOfSongs", () => {
 
-    let list = shallow(<ListOfSongs />)
+    let header = shallow(<Header />)
   
   it('renders correctly', ()=>{
-    expect(list).toMatchSnapshot();
+    expect(header).toMatchSnapshot();
   })
 })

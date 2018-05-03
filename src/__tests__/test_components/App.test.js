@@ -17,7 +17,7 @@ describe('App', () =>{
     });
 
     it('renders list of songs component correctly', () =>{
-      expect(app.find('ListOfSongs').exists()).toBe(true);
+      expect(app.find('Header').exists()).toBe(true);
     });
   });
   

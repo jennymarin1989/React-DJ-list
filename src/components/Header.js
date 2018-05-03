@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ListOfSongs = (props) => {
+const Header = (props) => {
 
     return(
 
@@ -11,4 +11,4 @@ const ListOfSongs = (props) => {
 
 }
 
-export default ListOfSongs
+export default Header;

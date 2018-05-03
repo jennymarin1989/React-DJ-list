@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import ListOfSongs from './ListOfSongs';
+import Header from './Header';
 import data from '../db.json'
 
 
@@ -31,7 +31,7 @@ class App extends Component {
           <input type="text" id="year-input" className="form-control" name="input" placeholder="Enter a year" value={this.state.message} onChange={this.handleInputChange}/>
         </div>
         <div>
-          <ListOfSongs 
+          <Header 
           />
          </div>
          <div> 

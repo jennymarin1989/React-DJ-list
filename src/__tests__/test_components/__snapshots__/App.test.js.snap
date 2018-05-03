@@ -35,7 +35,7 @@ ShallowWrapper {
           />
 </div>,
         <div>
-          <ListOfSongs />
+          <Header />
 </div>,
         <div>
           
@@ -96,7 +96,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <ListOfSongs />,
+          "children": <Header />,
         },
         "ref": null,
         "rendered": Object {
@@ -148,7 +148,7 @@ ShallowWrapper {
             />
 </div>,
           <div>
-            <ListOfSongs />
+            <Header />
 </div>,
           <div>
             
@@ -209,7 +209,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <ListOfSongs />,
+            "children": <Header />,
           },
           "ref": null,
           "rendered": Object {

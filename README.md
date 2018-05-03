@@ -2,6 +2,16 @@
 
 The main goal of this tech test is creating a simple application where the DJ can display a list of songs of a given year, making her life more easy during the session. Each song should be displayed with the Title, Artist, Album and year.
 
+screenshoot of the app:
+
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/39561245-68990740-4e9c-11e8-9e8d-13de26dcf8d0.png" width="600px" text-align:"center" />
+</p>
+
+<p>
+<img src="https://user-images.githubusercontent.com/29259526/39561466-b64b64aa-4e9d-11e8-8fb1-c0ef65c0ece8.png" width="600px" text-align="center">
+</p>
+
 
 ## User stories
 
@@ -48,17 +58,6 @@ MVP:
 To complete this technical test I was free to choose the technologies. Initially my idea was to build a full stack app using the MERN(Mongo, Express, React and Node)stack applying TDD principles but it would take more than one day to finish it, therefore, I made the decision to use React and axios but unfortunately I had some issues with the installation of the axios npm package and I couldn't use it correctly, so I ended up using purely React and CSS to achieve the requirements of the MVP. I given more time, I would spend more time researching about axios and practising REST Api calls to access local Json data.
 
 Althought the app is very basic I followed TDD principles using the Jest testing frmaework, starting with basic tests to render a simple component and testing more complicated units of code later on.
-
-screenshoot of the app:
-
-<p>
-<img src="https://user-images.githubusercontent.com/29259526/39561245-68990740-4e9c-11e8-9e8d-13de26dcf8d0.png" width="600px" text-align:"center" />
-</p>
-
-<p>
-<img src="https://user-images.githubusercontent.com/29259526/39561466-b64b64aa-4e9d-11e8-8fb1-c0ef65c0ece8.png" width="600px" text-align="center">
-</p>
-
 
 
 ## Getting started

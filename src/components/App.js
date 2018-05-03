@@ -34,7 +34,7 @@ class App extends Component {
             class = {"title"}
           />
           <div className="input-group">
-            <input type="text" id="year-input" className="form-control" name="input" placeholder="Enter a year and I give you a song..." value={this.state.message} onChange={this.handleInputChange}/>
+            <input type="text" id="year-input" className="form-control" name="input" placeholder="Enter a year and I give you a song..." value={this.state.input} onChange={this.handleInputChange}/>
           </div>
           <div>
             <Header 

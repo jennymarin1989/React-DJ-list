@@ -32,7 +32,7 @@ ShallowWrapper {
                     onChange={[Function]}
                     placeholder="Enter a year and I give you a song..."
                     type="text"
-                    value={undefined}
+                    value=""
           />
 </div>,
         <div>
@@ -75,7 +75,7 @@ ShallowWrapper {
             onChange={[Function]}
             placeholder="Enter a year and I give you a song..."
             type="text"
-            value={undefined}
+            value=""
 />,
           "className": "input-group",
         },
@@ -91,7 +91,7 @@ ShallowWrapper {
             "onChange": [Function],
             "placeholder": "Enter a year and I give you a song...",
             "type": "text",
-            "value": undefined,
+            "value": "",
           },
           "ref": null,
           "rendered": null,
@@ -160,7 +160,7 @@ ShallowWrapper {
                         onChange={[Function]}
                         placeholder="Enter a year and I give you a song..."
                         type="text"
-                        value={undefined}
+                        value=""
             />
 </div>,
           <div>
@@ -203,7 +203,7 @@ ShallowWrapper {
               onChange={[Function]}
               placeholder="Enter a year and I give you a song..."
               type="text"
-              value={undefined}
+              value=""
 />,
             "className": "input-group",
           },
@@ -219,7 +219,7 @@ ShallowWrapper {
               "onChange": [Function],
               "placeholder": "Enter a year and I give you a song...",
               "type": "text",
-              "value": undefined,
+              "value": "",
             },
             "ref": null,
             "rendered": null,

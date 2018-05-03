@@ -18,10 +18,13 @@ class App extends Component {
     this.setState({
       input: event.target.value
     });
-  
   }
   
   render(){  
+    let filterSongs = data.filter((song) => {
+      return song.Year === parseInt(this.state.event)
+    }
+  )
   
     return (
       <div>

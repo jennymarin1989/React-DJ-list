@@ -1,5 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import renderer from 'react-test-renderer';
 import App from '../../components/App.js'
 
 
@@ -42,11 +43,8 @@ describe('App', () =>{
 
   describe('returns an array of objects from data.json', () => {
     it('should return objects related with the year input', () =>{
-      let songs = [
-        {"title":"Sunday bloody Sunday", "Artist": "u2", "Album": "The Joshua Tree", "year": 2000 },
-        {"title":"When you were young", "Artist": "THe killers", "Album": "Human", "year": 2008 }
-      ]
-     expect([{"title":"Sunday bloody Sunday", "Artist": "u2", "Album": "The Joshua Tree", "year": 2000 }]).not.toEqual(expect.arrayContaining(songs));
+      app.find('#year-input').simulate('change', { target: {name:"input", value: "2007"}} )
+      expect(app.find('.songs')).toHaveLength(2);
     })
   })
 
